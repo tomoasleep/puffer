@@ -1,0 +1,24 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "jsx": "react",
+    "jsxFactory": "h",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "target": "es6",
+    "module": "commonjs",
+    "typeRoots": ["node_modules/@types", "lib/@types"],
+    "outDir": "out"
+  },
+  "include": [
+    "lib/**/*.ts"
+  ]
+}

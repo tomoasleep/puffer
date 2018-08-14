@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle puffer'
+      'command': 'puffer:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'puffer'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'puffer:toggle'
+        }
+      ]
+    ]
+  }
+]
